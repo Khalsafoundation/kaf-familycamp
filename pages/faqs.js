@@ -24,9 +24,9 @@ const FAQ = ({ frontmatter }) => {
                           <div key={index}
                             className=" has-text-black py-2 my-5 is-flex is-flex-direction-column	 is-justify-content-center is-align-items-start"
                           >
-                            <p className='is-size-4'> {`Q No.${index + 1}: ${faq?.question}`} </p>
+                            <p className='is-size-4'> {`Q${index + 1}: ${faq?.question}`}</p>
                             <p className='is-size-5'>
-                              Ans:{faq?.answer}
+                              {faq?.answer}
                             </p>
                           </div>
                         )
