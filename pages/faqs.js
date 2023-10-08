@@ -26,7 +26,7 @@ const FAQ = ({ frontmatter }) => {
                           >
                             <p className='is-size-4'> {`Q${index + 1}: ${faq?.question}`}</p>
                             <p className='is-size-5'>
-                              {faq?.answer}
+                              A:{faq?.answer}
                             </p>
                           </div>
                         )
